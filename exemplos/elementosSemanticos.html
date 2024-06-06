@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Semânticos</title>
+</head>
+<body>
+    <!-- Em aparência VISUAL, os elementos semânticos não alteram em nada na página, mas são muito importantes SEMÂNTICAMENTE.-->
+    <!-- Cabeçalho: <header><\header> -->
+    <!-- Barra de Navegação: <nav><\nav> -->
+    <header>
+        <nav>
+            Barra de navegação.
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal: <main><\main> -->
+    <main>
+        Conteúdo principal.
+        <!-- Seções: <section><\section> -->
+        <section id="about-me">
+            Sobre mim.
+            <!-- Figure = envolver uma imagem. -->
+            <figure>
+                <img src="https://avatars.githubusercontent.com/u/164123811?v=4" alt="Foto de perfil do meu GitHub." width="150">
+                <!-- Fig Caption = legenda para a imagem.-->
+                 <figcaption>Foto de perfil do GitHub.</figcaption>
+            </figure>
+        </section>
+
+        <section id="portfolio">
+            Portfólio.
+        </section>
+
+        <section id="blog">
+            Blog.
+            <!-- Article = "novo escopo", pode reutilizar as tags header, main e footer. -->
+            <article>
+                <header></header>
+
+                <main></main>
+
+                <footer></footer>
+            </article>
+        </section>
+    </main>
+
+    <!-- Barra Lateral: <aside><\aside> -->
+    <aside>
+        Conteúdo da barra lateral.
+    </aside>
+
+    <!-- Rodapé: <footer><\footer> -->
+    <footer>
+        Desenvolvido por: Maria Eduarda.
+    </footer>
+</body>
+</html>
