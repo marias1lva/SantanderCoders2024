@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    color: #48a5edaa;
+    font-size: 4.0rem;
+    font-weight: 900;
+    font-style: oblique;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: #097d7f8b;
+    font-size: 2.4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table, td, th{
+    border: 1px solid black;
+}
+
+table thead tr:first-child{
+    background-color: antiquewhite;
+    color: #010000;
+}
+
+table tbody tr:nth-child(2n + 2){
+    background-color: slategray;
+}
+
+table{
+    font-size: 2.0rem;
+    border-collapse: separate;
+}
+
+
+ul, ol{
+    padding-left: 2.4rem;
+}
+
+ul{
+    list-style: circle;
+}
+
+ol{
+    list-style: decimal;
+}
+
+.box{
+    height: 10rem;
+    width: 20rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background-color: rgba(48, 163, 125, 0.481);
+    border: 0.4rem solid #365a53;
+    display: inline-block;
+    border-radius: 1rem;
+}
+
+img{
+    height: 10.5rem;
+    width: 15rem;
+    object-fit: cover;
+}
