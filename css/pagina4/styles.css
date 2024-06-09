@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    color: #48a5edaa;
+    font-size: 4.0rem;
+    font-weight: 900;
+    font-style: oblique;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* display: none; */
+    /* visibility: hidden; */
+    opacity: 0.4;
+}
+
+[data-anchor= "products"]:hover{
+    background-color: red;
+    color: #fff;
+    transform: scale(1.2);
+}
+
+[data-anchor= "team"]{
+    margin-top: 2rem;
+    animation: pulse 2s infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    transform: scale(1);
+}
+
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.35);
+        opacity: .6;
+    }
+}
+
+.spinner-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-spinner{
+    margin-top: 3rem;
+    margin: 4rem;
+    font-size: 3rem;
+    animation: load 1s infinite;
+}
+
+@keyframes load{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+
+a{
+    font-size: 2.4rem;
+    background-color: steelblue;
+    color: #fff;
+    border: none;
+    font-size: 2.4rem;
+    padding: 0.6rem 2.4rem;
+    cursor: pointer;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s ease-in-out, background-color 1s ease-in-out;
+
+    display: block;
+}
+
+/* a:hover{ 
+    background-color: red;
+    color: #fff;
+    transform: scale(1.2);
+} */
+
+h2{
+    color: black;
+    font-size: 2.4rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+table, td, th{
+    border: 1px solid black;
+}
+
+table thead tr:first-child{
+    background-color: antiquewhite;
+    color: #010000;
+}
+
+/*table tbody tr:nth-child(2n + 2){
+    background-color: slategray;
+}*/
+
+#companies-table{
+     font-size: 2.0rem; 
+    border-collapse: separate;
+}
+
+[data-company= "GCO"]{
+    background-color: blue;
+}
+[data-company= "CCL"]{
+    background-color: palevioletred;
+}
+[data-company= "CEC"]{
+    background-color: yellow;
+}
+[data-company= "TT"]{
+    background-color: green;
+} 
+
+/* [data-company]{
+        background-color: pink;
+    } *se aplica a todas as data-company   
+*/
+
+.bg {
+    height: 40vh;
+    width: 100vw;
+    background-color: #FAEBD7;
+    background-image: url('https://images.unsplash.com/photo-1717479472303-e09bc657578e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D');
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px){
+    .bg{
+        height: 80vh;
+    }
+}
+
+/* @media screen and (max-width: 767px){
+    table{
+        display: none;
+    }
+    h1{
+        color: red;
+    }
+}  */
+
+@media print {
+    .bg{
+        display: none;
+    }
+}
