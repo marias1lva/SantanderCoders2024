@@ -20,5 +20,8 @@ console.log(n);
 // qual será a saída desse código?
 console.log(2 + 3 + 4 + "5"); // = 2 + 3 = 5 + 4 = 9 + "5" = '95' string
 
-//qual será a saída desse código?
-console.log("5" + 2 + 3 + 4); // = "5" + 2 = '52' + 3 = '523' + 4 = '5234'
+// qual será a saída desse código?
+console.log("5" + 2 + 3 + 4); // = "5" + 2 = '52' + 3 = '523' + 4 = '5234' (string)
+
+// qual será a saída desse código?
+console.log("10" - "4" - "3" - 2 + "5"); // = '6' - '3' = '3' - 2 = '1' + '5' = '15' (string)
