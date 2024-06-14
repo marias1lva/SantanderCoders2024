@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 5.6rem;
+    height: 5.6rem;
+    top: 2.2rem;
+    left: 337px;
+    border-radius: 20rem;
+}
+
+body {
+    background-color: #222222;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
