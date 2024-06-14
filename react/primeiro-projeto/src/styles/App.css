@@ -4,12 +4,20 @@
     box-sizing: border-box;
 }
 
-img{
-    width: 5.6rem;
-    height: 5.6rem;
-    top: 2.2rem;
+.article-image {
+    width: 246px;
+    height: 180px;
+    top: 187px;
+    left: 371px;
+    border-radius: 6px;
+}
+
+.navbar-image {
+    width: 56px;
+    height: 56px;
+    top: 22px;
     left: 337px;
-    border-radius: 20rem;
+    border-radius: 200px;
 }
 
 body {
@@ -22,3 +30,12 @@ a {
     text-decoration: none;
 }
 
+section#articles {
+    max-width: 1240px;
+    padding: 0 2rem;
+    margin: 4rem auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
